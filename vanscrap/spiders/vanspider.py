@@ -1,3 +1,4 @@
+"""Main script, containing the spider class to extract from Yescapa website."""
 import scrapy
 import re
 from scrapy_splash import SplashRequest
@@ -6,7 +7,7 @@ from scrapy_splash import SplashRequest
 class VanSpider(scrapy.Spider):
     """Spider class to extract information about vans from yescapa website.
 
-    It cointains three main generators "start_requests()", "parse_link()" and
+    It contains three main generators "start_requests()", "parse_link()" and
     "parse()". The name of the spider is "van".
 
     """
@@ -27,7 +28,7 @@ class VanSpider(scrapy.Spider):
     def parse_link(self, response, **kwargs):
         """Parse the link for each item (van).
 
-        It extracts information from the header, but as well technical 
+        It extracts information from the header, but as well as technical
         elements, owner conditions ans some information about the reviews.
 
         """
@@ -94,7 +95,7 @@ class VanSpider(scrapy.Spider):
         """Generate main parsing.
 
         Main generator, that gets some information from the main page and saves
-        it into adictionary. This dictionary is then saved into another
+        it into a dictionary. This dictionary is then saved into another
         dictionary that is later called on the "parse_link()" function.
 
         """
