@@ -1,0 +1,6 @@
+name,location,rating,reviews,price (€),seats,sleep_places,driving_license,international,animals,model,year,weight (kg),fuel,km,tank (l),deposit (€),deposit_payment_method,smoking,most_reviews_year
+Campervan,Lisboa,"5,0",20,60,4,3,B,sob pedido,autorizados,Westfalia Transporter,1990,"2.265,0 kg",Diesel,Desconhecido,"40,0","500,00",Dinheiro,não fumadora,2021
+Autocaravana capucino,Carcavelos,"4,5",8,50,5,5,B,não autorizadas,sob pedido,Ford Transit 2.5,1993,"2.900,0 kg",Diesel,75-100000 km,"70,0","750,00","Dinheiro, Outros",não fumadora,2022
+Autocaravana Perfilada,Corroios,"5,0",27,66,4,4,B,não autorizadas,autorizados,Ecovip Fr,1998,"3.500,0 kg",Diesel,"100-150,000 km","60,0","700,00","Dinheiro, Transferência, Outros",não fumadora,2022
+Autocaravana capucino,Lisboa,"5,0",27,70,4,4,B,não autorizadas,autorizados,Challenger Challenger,2005,"3.400,0 kg",Diesel,"100-150,000 km","70,0","600,00","Dinheiro, Transferência",fumadora,2022
+Campervan,Lisboa,"5,0",46,50,6,3,B,autorizada,autorizados,Campster Campster,1988,"2.390,0 kg",Gasolina,"100-150,000 km","50,0","600,00",Dinheiro,sob pedido,2022
